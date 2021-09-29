@@ -2,6 +2,34 @@ import java.util.Scanner;
 
 public class Sistema {
 
+    private static Scanner capturarDados(){
+        System.out.println("Com quais dessas alternativas eu posso te ajudar?");
+        return new Scanner(System.in);
+    }
+
+    public Tratamentos definirTratamento(){
+        Tratamentos tratamentoDefinido = new Tratamentos();
+
+        int escolhaMenu = capturarDados().nextInt();
+
+        if (escolhaMenu == 1){
+            tratamentoDefinido.tratarLuto();
+        }
+        else if (escolhaMenu == 2){
+             tratamentoDefinido.tratarAnsiedade();
+        }
+        else if (escolhaMenu == 3){
+            tratamentoDefinido.tratarTimidez();
+        }
+        else if (escolhaMenu == 4){
+            tratamentoDefinido.tratarAmorProprio();
+        }
+        else if (escolhaMenu == 5){
+            tratamentoDefinido.tratarInseguranca();
+        }
+        return tratamentoDefinido;
+    }
+
     public static void apresentacao(){
         System.out.println("\tOlá!!!");
         System.out.println("Se você tá por aqui provavelmente tem alguma coisa incomodando esse seu coraçãozinho");
@@ -22,26 +50,7 @@ public class Sistema {
         System.out.println("5 - As vezes me sinto inseguro, mas quero quebrar essa insegurança na porrada");
         System.out.println("6 - Voltar para o menu anterior");
         int escolha = leitor.nextInt();
-        if (escolha == 1){
-           // sintomaTeste.setNome("Luto");
-           // tratamento.tratarLuto();
-        }
-        else if (escolha == 2){
-           // sintomaTeste.setNome("Ansiedade");
-           // tratamento.tratarAnsiedade();
-        }
-        else if (escolha == 3){
-           // sintomaTeste.setNome("Timidez");
-           // tratamento.tratarTimidez();
-        }
-        else if (escolha == 4){
-           // sintomaTeste.setNome("Falta de amor próprio");
-           // tratamento.tratarAmorProprio();
-        }
-        else if (escolha == 5){
-           // sintomaTeste.setNome("Insegurança");
-          //  tratamento.tratarInseguranca();
-        }
+
         else if (escolha == 6){
 
         }

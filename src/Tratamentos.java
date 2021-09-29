@@ -100,7 +100,11 @@ public class Tratamentos {
         concatenador.append("\nSe nos sentirmos negativos, precisamos começar a pensar positivamente . Se nos sentirmos perto de desistir, precisamos tomar uma atitude que nos moverá para frente.");
         concatenador.append("\nSe sentirmos que algo pode ser o fim, precisamos começar a buscar novas oportunidades.");
         concatenador.append("\nQuando nós fazemos o oposto e temos sucesso, as nossas ações têm o poder de mudar nossas crenças.");
+        comoTratar = concatenador.toString();
+    }
 
+    public void tratarAmorProprio(){
+        StringBuilder concatenador = new StringBuilder();
 
         comoTratar = concatenador.toString();
     }

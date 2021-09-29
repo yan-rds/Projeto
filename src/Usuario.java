@@ -15,4 +15,8 @@ public class Usuario {
     public void setSintoma(Sintoma sintoma) {
         this.sintoma = sintoma;
     }
+
+    public void adicionarSintoma(Sintoma sintomaAdicionado){
+        setSintoma(sintomaAdicionado);
+    }
 }

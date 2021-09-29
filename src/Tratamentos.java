@@ -68,9 +68,29 @@ public class Tratamentos {
 
     public void tratarInseguranca() {
         StringBuilder concatenador = new StringBuilder();
-        concatenador.append("Para te ajudar com inseguranca, faça isso");
-        concatenador.append("\nTambém ajuda muito fazer aquilo ali");
-        concatenador.append("\nE claro, nunca se esqueça de sempre fazer tal coisa");
+        concatenador.append("\nTem algumas coisas que você pode fazer para te ajudar a lidar com a insegurança\n");
+        concatenador.append("\nPreste atenção na linguagem");
+        concatenador.append("\nA insegurança corresponde à linguagem das mentiras. Quanto mais inseguros somos, mais mentiras contamos a nós mesmos.");
+        concatenador.append("\nPara superá-la, é preciso aprender a falar sobre a vida de uma maneira positiva, prestando atenção no que está indo bem.");
+        concatenador.append("\nQuanto mais falarmos a linguagem da positividade, menos dúvidas e mais sucessos experimentaremos.");
+        concatenador.append("\nQuando falamos positivamente sobre as nossas vidas, nossa atmosfera muda. As pessoas querem trabalhar com pessoas positivas.");
+        concatenador.append("\nPromova uma competição com os seus pensamentos");
+        concatenador.append("\nTodos nós nos sentimos inseguros – é parte da experiência humana.");
+        concatenador.append("\nEm vez de permitir que estes pensamentos governem nossas vidas, devemos nos opor a eles e testar seus limites, competir com eles e descobrir quem ou o que vence.");
+        concatenador.append("\nOs pensamentos nem sempre estão sob nosso comando, mas tomar atitudes está.");
+        concatenador.append("\nMude o foco");
+        concatenador.append("\nQuando nos sentimos pressionados, nossas dúvidas ganham mais peso. ");
+        concatenador.append("\nessa situação, devemos mudar nosso foco de “ganhar”, “fechar o acordo”, “atingir a meta” ou “agradar ao supervisor” para “nos preocupar mais com os clientes”, “ajudar o chefe” e “auxiliar os colegas”");
+        concatenador.append("\nMudar o foco de “ganhar” para “servir”. Quando nos focamos mais no outro do que em nós mesmos a pressão diminui.");
+        concatenador.append("\nServir vem da compaixão, da esperança e da ajuda. ");
+        concatenador.append("\nQuando trabalhamos com essa mentalidade, acordos são fechados com mais facilidade, já que as pessoas a quem estamos servindo sentem que nós não estamos lá para “vender”, mas para ajudá-los a atingir um objetivo maior.");
+        concatenador.append("\nInverta o ciclo");
+        concatenador.append("\nPara inverter o pensamento negativo e a insegurança, precisamos fazer o exato oposto do que estamos pensando.");
+        concatenador.append("\nSe nos sentirmos negativos, precisamos começar a pensar positivamente . Se nos sentirmos perto de desistir, precisamos tomar uma atitude que nos moverá para frente.");
+        concatenador.append("\nSe sentirmos que algo pode ser o fim, precisamos começar a buscar novas oportunidades.");
+        concatenador.append("\nQuando nós fazemos o oposto e temos sucesso, as nossas ações têm o poder de mudar nossas crenças.");
+
+
         comoTratar = concatenador.toString();
     }
 

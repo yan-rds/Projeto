@@ -16,4 +16,12 @@ public class Sintoma {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    public Tratamentos getTratamento() {
+        return tratamento;
+    }
+
+    public void setTratamento(Tratamentos tratamento) {
+        this.tratamento = tratamento;
+    }
 }

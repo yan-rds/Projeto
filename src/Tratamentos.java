@@ -105,7 +105,35 @@ public class Tratamentos {
 
     public void tratarAmorProprio(){
         StringBuilder concatenador = new StringBuilder();
-
+        concatenador.append("\nTem algumas coisas que você pode fazer pra te ajudar a lidar com a falta de amor próprio\n");
+        concatenador.append("\nTrabalhe seu autoconhecimento");
+        concatenador.append("\nAnalise diariamente seus gostos, suas atitudes, coisas que lhe fazem bem ou lhe trazem prazer e, assim como aquilo que você não gosta ou não se identifica.");
+        concatenador.append("\nEstabeleça um tempo para reconhecer quem você é");
+        concatenador.append("\nListe suas qualidades");
+        concatenador.append("\nDurante seu trabalho de autoconhecimento, você vai perceber quais são suas qualidades. Foque nelas!");
+        concatenador.append("\nAcredite que você é capaz");
+        concatenador.append("\nDuvidar das próprias capacidades é uma das maneiras de dificultar o desenvolvimento do amor próprio.");
+        concatenador.append("\nNão duvide de si mesmo. Coloque sua energia em realizar aquilo que deseja e veja como você consegue o que quer.");
+        concatenador.append("\nFortaleça-se");
+        concatenador.append("\nDepois de descobrir quais são suas qualidades, invista cada vez mais nelas. ");
+        concatenador.append("\nAnalise aqueles pontos nos quais você não vai tão bem: se eles forem importantes para você, procure desenvolvê-los melhor");
+        concatenador.append("\nCuide de si");
+        concatenador.append("\nTire um tempo para se cuidar: do corpo, da mente e da espiritualidade. O autocuidado é necessário para se manter bem");
+        concatenador.append("\nDiminua a autocrítica");
+        concatenador.append("\nVocê, mais que ninguém, conhece suas potencialidades.");
+        concatenador.append("\nNão se cobre além do que pode oferecer. Todo mundo tem um limite: descubra o seu");
+        concatenador.append("\nEvite sentir culpa");
+        concatenador.append("\nErrar faz parte do processo e isso não faz de você uma pessoa pior.");
+        concatenador.append("\nProcure entender os seus erros e use-os como aprendizado para os próximos desafios");
+        concatenador.append("\nPratique Ho’oponopono");
+        concatenador.append("\n“Sinto muito. Me perdoe. Te amo. Sou grato(a)”. Estas pequenas frases integram uma técnica de cura que vem da sabedoria ancestral havaiana, conhecida como Ho’oponopono.");
+        concatenador.append("\nA ideia básica é fortalecer a gratidão para resolver feridas e mágoas do passado e, assim, encontrar um estado de paz interior, tranquilidade e prosperidade.");
+        concatenador.append("\nMesmo que você não esteja em meditação ou em um lugar tranquilo, é possível se beneficiar da prática do ho’oponopono.");
+        concatenador.append("\nImagine que você está no trânsito e um pensamento sobre alguém ou um acontecimento do passado atravessa a sua mente.");
+        concatenador.append("\nNeste momento, você pode fazer uma respiração profunda e repetir as frases “Sinto muito, me perdoe, te amo, sou grato(a)” algumas vezes, em voz alta ou mentalmente.");
+        concatenador.append("\nSua intenção deve ser a de purificar a energia e não permitir que ela ganhe força em você.");
+        concatenador.append("\nÉ um tipo de oração pontual, que pode ser feita para afastar algo que você sabe que seria ruim em sua vida.");
+        concatenador.append("\nVocê deve repetir até se sentir bem e livre daquele pensamento.");
         comoTratar = concatenador.toString();
     }
 

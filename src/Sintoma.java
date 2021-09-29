@@ -24,4 +24,5 @@ public class Sintoma {
     public void setTratamento(Tratamentos tratamento) {
         this.tratamento = tratamento;
     }
+
 }

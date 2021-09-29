@@ -140,6 +140,8 @@ public class Tratamentos {
         comoTratar = concatenador.toString();
     }
 
-
-
+    @Override
+    public String toString() {
+        return comoTratar;
+    }
 }

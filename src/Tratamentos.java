@@ -13,13 +13,6 @@ public class Tratamentos {
         this.comoTratar = comoTratar;
     }
 
-    public void tratarDepressao() {
-        StringBuilder concatenador = new StringBuilder();
-        concatenador.append("Para te ajudar com depressão, faça isso");
-        concatenador.append("\nTambém ajuda muito fazer aquilo ali");
-        concatenador.append("\nE claro, nunca se esqueça de sempre fazer tal coisa");
-        comoTratar = concatenador.toString();
-    }
 
     public void tratarAnsiedade() {
         StringBuilder concatenador = new StringBuilder();

@@ -15,9 +15,20 @@ public class Tratamentos {
 
     public void tratarLuto() {
         StringBuilder concatenador = new StringBuilder();
-        concatenador.append("");
-        concatenador.append("\nTambém ajuda muito fazer aquilo ali");
-        concatenador.append("\nE claro, nunca se esqueça de sempre fazer tal coisa");
+        concatenador.append("\nTem algumas coisas que você pode fazer para lidar com o luto\n");
+        concatenador.append("\nChore com a sua dor");
+        concatenador.append("\nPara muitas pessoas, a etapa do luto costuma ser uma experiência muito dolorosa e que abala verdadeiramente as estruturas.");
+        concatenador.append("\nDiante disso, inibir a sua dor ou bloquear os seus sentimentos não lhe trará melhoras.");
+        concatenador.append("\nSe você está sentindo a perda, chore com a sua dor, somente assim para tirar o que está afogando o seu peito e aos poucos ir assimilando a realidade.");
+        concatenador.append("\nProcure encontrar um sentido na perda");
+        concatenador.append("\nMuito mais que encontrar uma justificativa para a perda, procurar encontrar um sentido para o acontecido pode transformar os seus dias.");
+        concatenador.append("\nVocê pode desenvolver novos valores, se tornar mais espiritualizado, adquirir novos papeis na sociedade.");
+        concatenador.append("\nEsses novos caminhos não farão com que a pessoa enlutada encontre um significado para a sua perda, mas poderá ajudá-la a dar um novo sentindo a sua existência sem o ente querido.");
+        concatenador.append("\nÉ preciso continuar vivendo");
+        concatenador.append("\nPor mais difícil que seja uma perda, você se sentirá pronto para seguir em frente e continuar vivendo e quando este momento chegar, irá entender que não é possível voltar atrás, pois existem outras coisas que você precisa viver, outras pessoas que precisam de você, outros vínculos para cuidar.");
+        concatenador.append("\nÉ preciso entender que isso não significa que você irá esquecer a pessoa que perdeu, mas que você viveu ao lado dela e a guardará pelo resto da vida em sua memória e sempre viva dentro de você.");
+        concatenador.append("\nA saudade poderá aparecer, haverá momentos de tristeza em menor intensidade, mas você se sentirá mais leve e é um bom sinal, não se culpe.");
+        concatenador.append("\nLembre-se sempre: a pessoa que se foi iria gostar que você continuasse vivendo e sonhando!");
         comoTratar = concatenador.toString();
     }
 

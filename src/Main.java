@@ -41,6 +41,9 @@ public class Main {
             sintomaTeste.setNome("Insegurança");
             tratamento.tratarInseguranca();
         }
+        else if (escolha == 6){
+
+        }
         System.out.println(tratamento);
 
 

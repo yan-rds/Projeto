@@ -19,4 +19,5 @@ public class Usuario {
     public void adicionarSintoma(Sintoma sintomaAdicionado){
         setSintoma(sintomaAdicionado);
     }
+
 }

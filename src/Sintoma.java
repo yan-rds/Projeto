@@ -1,5 +1,6 @@
 public class Sintoma {
     private String nome;
+    private Tratamentos tratamento;
 
     public Sintoma() {
     }

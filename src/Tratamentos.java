@@ -9,6 +9,9 @@ public class Tratamentos {
         this.comoTratar = comoTratar;
     }
 
+    public Tratamentos() {
+    }
+
     public Tratamentos(String comoTratar) {
         this.comoTratar = comoTratar;
     }

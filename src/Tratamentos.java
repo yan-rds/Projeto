@@ -21,4 +21,30 @@ public class Tratamentos {
         comoTratar = concatenador.toString();
     }
 
+    public void tratarAnsiedade() {
+        StringBuilder concatenador = new StringBuilder();
+        concatenador.append("Para te ajudar com ansiedade, faça isso");
+        concatenador.append("\nTambém ajuda muito fazer aquilo ali");
+        concatenador.append("\nE claro, nunca se esqueça de sempre fazer tal coisa");
+        comoTratar = concatenador.toString();
+    }
+
+    public void tratarTimidez() {
+        StringBuilder concatenador = new StringBuilder();
+        concatenador.append("Para te ajudar com Timidez, faça isso");
+        concatenador.append("\nTambém ajuda muito fazer aquilo ali");
+        concatenador.append("\nE claro, nunca se esqueça de sempre fazer tal coisa");
+        comoTratar = concatenador.toString();
+    }
+
+    public void tratarInseguranca() {
+        StringBuilder concatenador = new StringBuilder();
+        concatenador.append("Para te ajudar com inseguranca, faça isso");
+        concatenador.append("\nTambém ajuda muito fazer aquilo ali");
+        concatenador.append("\nE claro, nunca se esqueça de sempre fazer tal coisa");
+        comoTratar = concatenador.toString();
+    }
+
+
+
 }

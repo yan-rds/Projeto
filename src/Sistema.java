@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class Sistema {
 
-    private static Scanner capturarDados(){
-        System.out.println("Com quais dessas opções eu posso te ajudar?");
+    private static Scanner capturarDados(String mensagem){
+        System.out.println(mensagem);
         return new Scanner(System.in);
     }
 
     public static Tratamentos definirTratamento(){
         Tratamentos tratamentoDefinido = new Tratamentos();
 
-        int escolhaMenu = capturarDados().nextInt();
+        int escolhaMenu = capturarDados("Com quais dessas opções eu posso te ajudar?").nextInt();
 
         if (escolhaMenu == 1){
             tratamentoDefinido.tratarLuto();
@@ -32,7 +32,7 @@ public class Sistema {
     }
 
     public static void apresentacao(){
-        System.out.println("\tOlá!!!");
+        System.out.println("Olá!!!\n");
         System.out.println("Se você tá por aqui provavelmente tem alguma coisa incomodando esse seu coraçãozinho");
         System.out.println("E tá tudo bem! São as emoções que nos fazem humanos");
         System.out.println("E praquelas que são difíceis de lidar sozinho");
@@ -51,8 +51,16 @@ public class Sistema {
     public static void executar(){
         apresentacao();
 
-        exibirOpcoesMenu();
-        System.out.println(definirTratamento());
+        boolean loopMenu = true;
+        while (loopMenu) {
+            loopMenu = false;
+            exibirOpcoesMenu();
+            System.out.println(definirTratamento());
+            String repetir = capturarDados("\nDeseja voltar ao menu anterior? Se quiser é só falar Sim").next();
+            if (repetir.equalsIgnoreCase("sim")) {
+                loopMenu = true;
+            }
+        }
 
 
     }

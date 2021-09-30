@@ -42,26 +42,33 @@ public class Main {
         System.out.println("Teve tosse?");
         String sintomaTosse = leitor.nextLine();
 
+
         if (sintomaTosse.equalsIgnoreCase("sim")) {
             Sintoma tosse = new Sintoma();
             pessoa1.adicionarSintoma(tosse);
         }
         System.out.println("Teve cansaço?");
         String sintomaCansaco = leitor.nextLine();
+
         if (sintomaCansaco.equalsIgnoreCase("sim")) {
             Sintoma cansaco = new Sintoma();
             pessoa1.adicionarSintoma(cansaco);
         }
         System.out.println("Teve perda de paladar ou de olfato?");
         String sintomaPerda = leitor.nextLine();
+
         if (sintomaPerda.equalsIgnoreCase("sim")) {
             Sintoma perda = new Sintoma();
             pessoa1.adicionarSintoma(perda);
 
-            System.out.println(pessoa1.listasSintoma.size());
+
         }
-
-
+        if (pessoa1.listasSintoma.size() == 4) {
+            System.out.println("\n Procure atendimento médico imediatamente. " +
+                    "\n Sempre ligue antes de ir ao médico ou posto de saúde, clínicas ou hospitais." +
+                    "\n Pessoas saudáveis que apresentarem os sintomas leves devem acompanhar a situação em casa." +
+                    "\n Em média, os sintomas aparecem cinco ou seis dias após a infeção pelo vírus. No entanto, eles também podem levar até 14 dias para se manifestarem.");
+        }
 
 
     }

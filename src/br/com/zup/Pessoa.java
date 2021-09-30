@@ -1,10 +1,13 @@
 package br.com.zup;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Pessoa {
     private String nome;
     private double idade;
     private double peso;
-
+    List<Sintoma>listasSintoma=new ArrayList<>();
     public Pessoa() {
     }
 
@@ -48,6 +51,9 @@ public class Pessoa {
     public double adicionarPeso(double novoPeso){
         peso=novoPeso;
         return peso;
+    }
+    public void adicionarSintoma (Sintoma novoSintoma){
+        listasSintoma.add(novoSintoma);
     }
 
     @Override

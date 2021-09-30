@@ -6,22 +6,15 @@ import java.util.concurrent.Callable;
 public class Main {
 
     public static void main(String[] args) {
-        /*//instanciando pessoa
-        Pessoa pessoa1 =  new Pessoa();
-        pessoa1.adicionarNome("João");
-        pessoa1.adicionarIdade(16);
-        pessoa1.adicionarPeso(55);
-         Cadastro cadastro1 = new Cadastro();
-         cadastro1.adicionarPessoa(pessoa1);
-        System.out.println(cadastro1); */
-        Pessoa pessoa1 =new Pessoa();
-Scanner leitor = new Scanner(System.in);
-        boolean menu=true;
-        while (menu){
+
+        Pessoa pessoa1 = new Pessoa();
+        Scanner leitor = new Scanner(System.in);
+        boolean menu = true;
+        while (menu) {
             System.out.println("~~~~Sistema Saúde~~~~");
             System.out.println("Informe seus dados para cadastro");
             System.out.println("Digite seu nome completo:");
-            String nomePessoa =leitor.nextLine();
+            String nomePessoa = leitor.nextLine();
             pessoa1.adicionarNome(nomePessoa);
             System.out.println("Digite a sua idade:");
             double idadePessoa = leitor.nextDouble();
@@ -30,16 +23,48 @@ Scanner leitor = new Scanner(System.in);
             System.out.println("Digite seu peso:");
             double pesoPessoa = leitor.nextDouble();
             pessoa1.adicionarPeso(pesoPessoa);
-            menu=false;
+            menu = false;
         }
-        //instanciando cadastro
-        Cadastro cadastro1 = new Cadastro();
-        //adicionando pessoa1 a cadastro
-        cadastro1.adicionarPessoa(pessoa1);
+        // boolean menuSintoma = true;
+        //  while (menuSintoma) {
+        System.out.println("Questionário de sintomas");
+        System.out.println("Responda com Sim ou Não");
+
+        System.out.println("Teve febre?");
+        leitor.nextLine();
+
+        String sintomaFebre = leitor.nextLine();
+        if (sintomaFebre.equalsIgnoreCase("sim")) {
+            Sintoma febre = new Sintoma();
+            pessoa1.adicionarSintoma(febre);
+        }
+
+        System.out.println("Teve tosse?");
+        String sintomaTosse = leitor.nextLine();
+
+        if (sintomaTosse.equalsIgnoreCase("sim")) {
+            Sintoma tosse = new Sintoma();
+            pessoa1.adicionarSintoma(tosse);
+        }
+        System.out.println("Teve cansaço?");
+        String sintomaCansaco = leitor.nextLine();
+        if (sintomaCansaco.equalsIgnoreCase("sim")) {
+            Sintoma cansaco = new Sintoma();
+            pessoa1.adicionarSintoma(cansaco);
+        }
+        System.out.println("Teve perda de paladar ou de olfato?");
+        String sintomaPerda = leitor.nextLine();
+        if (sintomaPerda.equalsIgnoreCase("sim")) {
+            Sintoma perda = new Sintoma();
+            pessoa1.adicionarSintoma(perda);
+
+            System.out.println(pessoa1.listasSintoma.size());
+        }
 
 
-        //mostrando cadastro.
-        System.out.println(cadastro1);
+
+
     }
+
 }
 

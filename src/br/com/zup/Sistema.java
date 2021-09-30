@@ -47,21 +47,29 @@ public class Sistema {
                 System.out.println("Olá, informe abaixo o seu objetivo");
                 int corpo = capturarDados("Digite a opção desejada: ").nextInt();
                 System.out.println("Digite 1 - para obter informações para perder peso");
-                System.out.println("Digite 2 - para obter informações para perder peso");
-                System.out.println("Digite 3 - para obter informações para perder peso");
+                System.out.println("Digite 2 - para obter informações para manter peso");
+                System.out.println("Digite 3 - para obter informações para ganhar peso");
 
 
                 switch (corpo) {
                     case 1:
-
-
+                        System.out.println("Consuma alimentos fontes de proteínas magras");
+                        System.out.println("Consuma alimentos fontes de carboidratos integrais");
+                        System.out.println("Evite as gorduras ruins: saturada e trans, inclua alimentos fontes de gorduras saudáveis: abacate, azeite extra virgem, oleaginosas");
+                        System.out.println("Consuma açúcar e sal com moderação;");
 
                         break;
                     case 2:
-
+                        System.out.println("1. Não coma o mesmo alimento (exceto vegetais) mais de uma vez por dia");
+                        System.out.println("2. Coma legumes pelo menos quatro vezes por semana");
+                        System.out.println("Beba um litro de água para cada 23 kg do seu peso");
+                        System.out.println("Faça exercícios físicos diários");
                         break;
                     case 3:
-
+                        System.out.println("Comer de 3 em 3 horas");
+                        System.out.println("Incluir proteínas em todas as refeições");
+                        System.out.println("Consumir gorduras boas");
+                        System.out.println("Realizar atividade física");
                         break;
                 }
 

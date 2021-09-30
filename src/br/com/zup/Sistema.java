@@ -43,10 +43,47 @@ public class Sistema {
                 } else {
                     System.out.println("Seu imc aponta para obesidade grave");
                 }
+            } else if (escolhaMenu == 2) {
+                System.out.println("Olá, informe abaixo o seu objetivo");
+                int corpo = capturarDados("Digite a opção desejada: ").nextInt();
+                System.out.println("Digite 1 - para obter informações para perder peso");
+                System.out.println("Digite 2 - para obter informações para perder peso");
+                System.out.println("Digite 3 - para obter informações para perder peso");
 
 
+                switch (corpo) {
+                    case 1:
+
+
+
+                        break;
+                    case 2:
+
+                        break;
+                    case 3:
+
+                        break;
+                }
+
+
+            } else if (escolhaMenu == 3) {
+                System.out.println("Olá, aqui daremos algumas dicas para tornar seu trabalho em casa mais confortável");
+                System.out.println("Dica {1} ");
+                System.out.println("Tenha apoio para costas, cotovelos e pescoço");
+                System.out.println("Dica {2} ");
+                System.out.println("Busque ambientes bem iluminados, ventilados e sem barulho");
+                System.out.println("Dica {3} ");
+                System.out.println("Faça pausas e alongamentos");
+                System.out.println("Dica {4} ");
+                System.out.println("Dê atenção à altura e à distância dos utensílios");
+
+
+            } else if (escolhaMenu == 4) {
+                opcao = false;
             }
         }
+
+
     }
 }
 

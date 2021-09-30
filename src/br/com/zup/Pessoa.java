@@ -2,8 +2,13 @@ package br.com.zup;
 
 public class Pessoa {
 
+
     private double peso;
     private double altura;
+
+    public Pessoa (){
+
+    }
 
     public Pessoa(double peso, double altura) {
         this.peso = peso;
@@ -25,5 +30,4 @@ public class Pessoa {
     public void setAltura(double altura) {
         this.altura = altura;
     }
-
 }

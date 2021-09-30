@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Sistema {
+public class SistemaSaudeMental {
 
     private static Scanner capturarDados(String mensagem){
         System.out.println(mensagem);

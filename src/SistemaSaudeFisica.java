@@ -1,8 +1,6 @@
-package br.com.zup;
-
 import java.util.Scanner;
 
-public class Sistema {
+public class SistemaSaudeFisica {
     private static Scanner capturarDados(String mensagem) {
         System.out.println(mensagem);
         return new Scanner(System.in);
@@ -28,7 +26,7 @@ public class Sistema {
 
             if (escolhaMenu == 1) {
                 double peso = capturarDados("Digite o seu peso : ").nextDouble();
-                double altura = capturarDados("Digite o valor da sua altura").nextDouble();
+                double altura = capturarDados("Digite o valor da sua altura (em metros)").nextDouble();
                 pessoa.setAltura(altura);
                 pessoa.setPeso(peso);
                 double imc = pessoa.getPeso() / (pessoa.getAltura() * pessoa.getAltura());

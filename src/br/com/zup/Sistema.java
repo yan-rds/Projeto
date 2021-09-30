@@ -18,6 +18,7 @@ public class Sistema {
     }
 
     public static void executar() {
+        Pessoa pessoa = new Pessoa();
         boolean opcao = true;
         while (opcao) {
 
@@ -28,8 +29,10 @@ public class Sistema {
             if (escolhaMenu == 1) {
                 double peso = capturarDados("Digite o seu peso : ").nextDouble();
                 double altura = capturarDados("Digite o valor da sua altura").nextDouble();
-                double imc = peso / (altura * altura);
-                //System.out.println("Seu imc é = %.2f " ,(imc) );
+                pessoa.setAltura(altura);
+                pessoa.setPeso(peso);
+                double imc = pessoa.getPeso() / (pessoa.getAltura() * pessoa.getAltura());
+                System.out.println(String.format("%.2f", imc));
 
                 if (imc < 18.5) {
                     System.out.println("Seu imc aponta para magreza");
@@ -45,10 +48,10 @@ public class Sistema {
                 }
             } else if (escolhaMenu == 2) {
                 System.out.println("Olá, informe abaixo o seu objetivo");
-                int corpo = capturarDados("Digite a opção desejada: ").nextInt();
                 System.out.println("Digite 1 - para obter informações para perder peso");
                 System.out.println("Digite 2 - para obter informações para manter peso");
                 System.out.println("Digite 3 - para obter informações para ganhar peso");
+                int corpo = capturarDados("Digite a opção desejada: ").nextInt();
 
 
                 switch (corpo) {
